@@ -36,11 +36,11 @@ def get_number_of_char(string: str, char: str) -> int:
 
 def get_number_of_words(sentence: str, word: str) -> int:
 
-    x = -1
+    y = -1
     nb = 0
     for char in sentence:
-        x += 1
-        if sentence[x:x + len(word)] == word:
+        y += 1
+        if sentence[y:y + len(word)] == word:
             nb += 1
     return nb
 
