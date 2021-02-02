@@ -1,0 +1,25 @@
+test_get_number_of_char (__main__.TestExercice) ... ok
+test_get_number_of_words (__main__.TestExercice) ... ok
+test_pair (__main__.TestExercice) ... FAIL
+test_remove_third_char (__main__.TestExercice) ... ok
+test_replace_char (__main__.TestExercice) ... ok
+
+======================================================================
+FAIL: test_pair (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 21, in test_pair
+    'Mauvaise identification de la parité de la longueur de la chaine'
+AssertionError: Lists differ: [True, None, None] != [True, False, False]
+
+First differing element 1:
+None
+False
+
+- [True, None, None]
++ [True, False, False] : Mauvaise identification de la parité de la longueur de la chaine
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+FAILED (failures=1)
