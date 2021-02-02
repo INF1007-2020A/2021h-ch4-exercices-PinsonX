@@ -1,21 +1,21 @@
 {
-  "is_even_len": {
+  "test_pair": {
     "name": "Vérifie si la longueur de la chaine est pair",
     "points": 1
   },
-  "remove_third_char": {
+  "test_remove_third_char": {
     "name": "Retire le 3e char de la chaine",
     "points": 1
   },
-  "replace_char": {
+  "test_replace_char": {
     "name": "Remplace un char dans la chaine",
     "points": 1
   },
-  "get_number_of_char": {
+  "test_get_number_of_char": {
     "name": "Retourne l'ocurence d'un caratère dans la chaine",
     "points": 1
   },
-  "get_number_of_words": {
+  "test_get_number_of_words": {
     "name": "Retourne l'ocurence d'un mot dans la chaine",
     "points": 1
   }
